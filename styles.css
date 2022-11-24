@@ -1,0 +1,40 @@
+.child-div {
+  background-color: #f8c4b4;
+
+  padding: 10px;
+  border-radius: 7px;
+}
+
+.second-div {
+  background-color: #bcead5;
+  border-radius: 7px;
+  padding: 10px;
+}
+
+p:not(p[col-4]) {
+  justify-content: center;
+}
+
+.main-nav {
+  background-color: #24262b;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.dropdown {
+  margin: 8.1px 9px 0 9px;
+}
+
+.dropdown-mn {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+}
+
+.dropdown-mn:hover,
+.dropdown-mn:active {
+  color: rgba(255, 255, 255, 0.75);
+}
